@@ -1,0 +1,46 @@
+.carrusel-wrapper {
+  overflow: hidden;
+  padding: 3rem 0;
+  position: relative;
+  border-radius: 10px;
+  transition: background-color 3s ease;
+}
+
+.carrusel-wrapper:hover {
+  background-color: rgba(0, 123, 255, 0.2);
+  border: solid 0.01px rgb(61, 58, 96);
+}
+
+.carrusel {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+  gap: 3rem;
+  align-items: center;
+  height: 100%;
+}
+
+.carrusel-item {
+  flex: 0 0 auto;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrusel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Animación infinita de derecha a izquierda */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

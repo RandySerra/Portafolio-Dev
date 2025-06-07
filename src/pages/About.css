@@ -1,0 +1,15 @@
+.card-about {
+  display: flex;
+  flex-direction: row;
+  width: 1fr;
+  height: auto;
+  border-radius: 10px;
+  transition: background-color 3s ease;
+  padding: 40px;
+  gap: 50px;
+}
+
+.card-about:hover {
+  background-color: rgba(0, 123, 255, 0.2);
+  border: solid 0.01px rgb(61, 58, 96);
+}

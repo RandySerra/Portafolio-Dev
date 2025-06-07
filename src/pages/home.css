@@ -1,0 +1,65 @@
+.home-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 1fr;
+    height: auto;
+    padding: 60PX ;
+    gap: 50px;
+    margin: 5rem 0rem;
+    border-radius: 10px;
+    transition: background-color 3s ease;
+}
+
+
+.home-img:hover {
+  background-color: rgba(0, 123, 255, 0.2);
+  border: solid 0.01px rgb(61, 58, 96);
+}
+
+
+.profesion{
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+    
+}
+
+.botones{
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  align-items: end;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  background-color: rgba(0, 123, 255, 0.2);
+  color: aliceblue;
+
+}
+
+.foto{
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+
+h2{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+h3{
+    font-size: 25px;
+    color: aliceblue;
+}
+.hola{
+    border-radius: 20px;
+    background-color: rgb(30, 115, 17);
+    width: 100px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+}

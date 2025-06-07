@@ -1,0 +1,39 @@
+.menu-vertical {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 5%;
+  height: 97%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 3s ease;
+  border-radius: 10px;
+}
+.menu-vertical:hover{
+  background-color: rgba(0, 123, 255, 0.2);
+  border: solid 0.01px rgb(61, 58, 96);
+}
+
+
+.botones-iconos {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  border-radius: 5px;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.botones-iconos:hover {
+  background-color: rgba(0, 123, 255, 0.2);
+}
+
+.icono {
+  display: inline;
+  font-size: 4vw;
+  color: aliceblue;
+}

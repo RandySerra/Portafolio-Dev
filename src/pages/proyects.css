@@ -1,0 +1,34 @@
+.proyectos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  border: solid 1px white; 
+}
+
+.proyecto-card {
+  background-color: #3a3a3a;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.542);
+  transition: transform 0.2s;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-5px);
+}
+
+.proyecto-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.proyecto-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.proyecto-card p {
+  color: #555;
+}
