@@ -3,7 +3,7 @@ import { FaHome, FaCode } from "react-icons/fa";
 function Menuvertical() {
   const items = [
     {
-      nombre: "boton 1",
+      nombre: "<Inicio/>",
       icono: <FaHome className="icono"/>,
       id: "home",
     },
@@ -31,7 +31,7 @@ function Menuvertical() {
             onClick={() => irASeccion(elemento.id)}
           >
             {" "}
-            {elemento.icono}
+            {elemento.icono}{elemento.nombre}
           </button>
           
         ))}

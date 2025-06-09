@@ -9,24 +9,28 @@ function Home() {
       nombre: "correo",
       icono: <CgMail />,
       texto: "randyserra2@gmail.com",
+      link: "https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcRzDCwfFCkghFwfTFKcTtTJKGxFnFkdHXBMWnBrmnlzdvdldxrqfMZwCKlZQFkghwqrCFmxL",
     },
 
-    {
-      nombre: "cv",
-      icono: <PiReadCvLogoLight />,
+    { nombre: "cv",
+      icono: <PiReadCvLogoLight />, 
       texto: "",
+      link: "./src/assets/Randy_CV_Dev.pdf",
+      descargar: true, 
     },
 
     {
       nombre: "Github",
       icono: <FaGithub />,
       texto: "",
+      link: "https://github.com/RandySerra",
     },
 
     {
       nombre: "Linkedin",
       icono: <FaLinkedinIn />,
       texto: "",
+      link: "https://www.linkedin.com/in/randy-serra-517411346/",
     },
   ];
 
@@ -38,17 +42,26 @@ function Home() {
         </div>
 
         <div className="nombre">
-          <h2>Randy Serra Torres</h2>{" "}
-          <h3>
-            Desarollador Software
-            <br />
-            Front-end / Junior
-          </h3>
-          {botones.map((elemento, index) => (
-            <button className="botones" index={index.nombre}>
-              {elemento.icono} {elemento.texto}
-            </button>
-          ))}
+          <h4>
+            Desarollador Front-End
+            <h1 className="typewriter">Randy Serra Torres</h1>
+          </h4>
+          <div className="contenerdor-botones">
+            {botones.map((elemento, index) => (
+              <a
+                key={index}
+                href={elemento.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                download={elemento.descargar ? true : undefined}
+              >
+                {" "}
+                <button className="botones" index={index.nombre}>
+                  {elemento.icono} {elemento.texto}
+                </button>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
       <div className="home-info">

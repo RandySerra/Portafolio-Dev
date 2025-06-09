@@ -12,7 +12,7 @@ import "./pages/Proyects.css"
 import CarruselTecnologias from './pages/Tecnologia'
 import "./pages/Tecnologia.css"
 
-import Menuvertical from './pages/menu-vertical'
+import Menuvertical from './pages/Menu-vertical'
 import "./pages/Menu-vertical.css"
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
 
 
       <div className='home-app'>
+        
         <Home></Home>
         <About></About> 
         <CarruselTecnologias ></CarruselTecnologias>

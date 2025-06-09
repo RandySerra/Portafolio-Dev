@@ -1,8 +1,23 @@
+:root {
+  --color-primario: #ebf1f615;   /* Paneles */
+  --color-secundario: #2ecc71;
+  --color-texto: #333;
+  --color-fondo: #1d263a;
+
+  --color-botones: #007bff33;
+  
+}
+
+
 .App {
   margin: 0rem 15rem;
   font-family: Arial, Helvetica, sans-serif;
- 
-    
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .home-app {
   display: flex;
@@ -13,7 +28,7 @@
 }
 
 body {
-  background-color:#1d263a
+  background-color: var(--color-fondo);
 }
 
 p {
