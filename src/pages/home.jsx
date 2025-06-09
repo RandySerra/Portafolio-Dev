@@ -38,7 +38,7 @@ function Home() {
     <>
       <div className="home-img" id="home">
         <div className="foto">
-          <img className="foto" src="./src/assets/foto2x2.png" alt="" />
+          <img className="foto" src="./Portafolio-Dev/src/assets/foto2x2.png" alt="" />
         </div>
 
         <div className="nombre">
