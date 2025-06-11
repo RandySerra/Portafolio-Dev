@@ -7,10 +7,9 @@
   height: auto;
   padding: 60px;
   gap: 50px;
-  margin: 5rem 0rem;
+  margin-top: 5rem;
   border-radius: 10px;
   transition: background-color 2s ease;
-
 }
 
 .home-img:hover {
@@ -31,7 +30,7 @@
   margin-top: 10px;
 }
 
-.botones {
+.botones{
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -43,15 +42,28 @@
   border: solid 0.01px rgb(61, 58, 96);
   transition: background-color 0.3s ease;
   cursor: pointer;
-  text-decoration: aliceblue;
-  color: rgb(117, 140, 165);
+
+
   gap: 10px;
+  animation: blinkColor 3s infinite;
 }
 
 .botones:hover {
   background-color: rgba(0, 123, 255, 0.2);
   border: solid 0.01px rgb(119, 125, 137);
   color: rgb(255, 255, 255);
+}
+
+@keyframes blinkColor{
+  0% {
+    color: rgb(255, 255, 255)
+  }
+  50% {
+    color: rgb(119, 125, 137);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
 }
 
 .foto {
@@ -96,3 +108,4 @@ h3, h4{
 @keyframes blink {
   50% { border-color: transparent; }
 }
+

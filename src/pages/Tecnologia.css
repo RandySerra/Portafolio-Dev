@@ -11,6 +11,12 @@
   border: solid 0.01px rgb(61, 58, 96);
 }
 
+.iconos-carrusel{
+  display: inline;
+  font-size: 4vw;
+  color: rgb(255, 255, 255);
+}
+
 .carrusel {
   display: flex;
   width: max-content;

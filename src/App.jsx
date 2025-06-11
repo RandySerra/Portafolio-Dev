@@ -30,7 +30,7 @@ function App() {
       <div className='home-app'>
         
         <Home></Home>
-        <About></About> 
+        <About></About>
         <CarruselTecnologias ></CarruselTecnologias>
         <Proyects></Proyects>
         

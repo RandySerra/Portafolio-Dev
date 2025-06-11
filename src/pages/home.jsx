@@ -1,7 +1,7 @@
 import Botonesinfo from "../Components/Botones/Botones";
 import { CgMail } from "react-icons/cg";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { PiReadCvLogoLight } from "react-icons/pi";
+import { FaGithub, FaLinkedinIn, FaFilePdf  } from "react-icons/fa";
+
 
 function Home() {
   const botones = [
@@ -12,11 +12,12 @@ function Home() {
       link: "https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcRzDCwfFCkghFwfTFKcTtTJKGxFnFkdHXBMWnBrmnlzdvdldxrqfMZwCKlZQFkghwqrCFmxL",
     },
 
-    { nombre: "cv",
-      icono: <PiReadCvLogoLight />, 
+    {
+      nombre: "cv",
+      icono: <FaFilePdf />,
       texto: "",
       link: "./src/assets/Randy_CV_Dev.pdf",
-      descargar: true, 
+      descargar: true,
     },
 
     {
@@ -38,12 +39,12 @@ function Home() {
     <>
       <div className="home-img" id="home">
         <div className="foto">
-          <img className="foto" src="./Portafolio-Dev/src/assets/foto2x2.png" alt="" />
+          <img className="foto" src="./src/assets/foto2x2.png" alt="" />
         </div>
 
         <div className="nombre">
           <h4>
-            Desarollador Front-End
+            Developer Front-End
             <h1 className="typewriter">Randy Serra Torres</h1>
           </h4>
           <div className="contenerdor-botones">

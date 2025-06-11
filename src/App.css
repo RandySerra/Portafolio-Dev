@@ -1,17 +1,15 @@
 :root {
-  --color-primario: #ebf1f615;   /* Paneles */
+  --color-primario: #ebf1f615; /* Paneles */
   --color-secundario: #2ecc71;
   --color-texto: #333;
   --color-fondo: #1d263a;
 
   --color-botones: #007bff33;
-  
 }
 
-
 .App {
-  margin: 0rem 15rem;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0rem 15rem;
 }
 
 * {
@@ -19,12 +17,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .home-app {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 400px;
-  gap: 0.5rem;
+  gap: 2rem;
+ 
 }
 
 body {
@@ -33,6 +33,10 @@ body {
 
 p {
   color: rgb(205, 226, 238);
-  font-size: 20px;
+  font-size: 15px;
   text-align: justify;
+}
+
+a {
+  text-decoration: none;
 }

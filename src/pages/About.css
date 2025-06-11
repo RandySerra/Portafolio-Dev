@@ -5,8 +5,7 @@
   height: auto;
   border-radius: 10px;
   transition: background-color 3s ease;
-  padding: 40px;
-  gap: 50px;
+  padding: 20px;
 }
 
 .card-about:hover {
