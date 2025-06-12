@@ -3,7 +3,6 @@ import { GoPersonFill } from "react-icons/go";
 function About() {
   return (
     <>
-      <h2 id="sobre_mi">Sobre mi</h2> {" "}
       <div className="card-about">
         <p>
           Desarrollador de Software <b>Front-End</b> con sólida experiencia en diseño,

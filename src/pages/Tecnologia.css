@@ -1,14 +1,10 @@
 .carrusel-wrapper {
   overflow: hidden;
-  padding: 3rem 0;
+  padding: 4rem 0;
   position: relative;
-  border-radius: 10px;
   transition: background-color 3s ease;
-}
-
-.carrusel-wrapper:hover {
-  background-color: rgba(0, 123, 255, 0.2);
-  border: solid 0.01px rgb(61, 58, 96);
+  border-top: solid 0.01px rgb(61, 58, 96);
+  border-bottom: solid 0.01px rgb(61, 58, 96);
 }
 
 .iconos-carrusel{
@@ -47,6 +43,6 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-30%);
   }
 }

@@ -1,43 +1,59 @@
-.proyectos-container{
+.proyectos-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 0.5rem;
+  grid-auto-rows: 1fr;
+  gap: 0.9rem 0.5rem;
   padding: 2rem;
-  border-radius: 10px;
   transition: background-color 2s ease;
+  border-top: solid 0.01px rgb(61, 58, 96);
+  border-bottom: solid 0.01px rgb(61, 58, 96);
 }
 
-.proyectos-container:hover {
-  background-color:#ebf1f615;
-  border: solid 0.01px rgb(61, 58, 96);
-}
-
-.proyecto-card{
+.proyecto-card {
   background-color: transparent;
-  padding: 1rem;
-  border-radius: 2px;
-  transition: background-color 2s ease;
+  padding: 0.9rem;
+  border-radius: 3px 3px 3px 3px;
+  transition: all 0.1s ease-in-out; /* ← Movimiento más suave */
+  background-color: #ebf1f615;
 }
-
 
 .proyecto-card:hover {
-  background-color:#ebf1f615;
-  border: solid 0.01px rgb(61, 58, 96);
+  transform: translateY(-8px); /* mueve 10px hacia arriba */
+  border: solid 0.01px rgba(160, 158, 186, 0.226);
+  background-color: #ebf1f624;
+  border-radius: 10px 10px 3px 3px;
 }
-
 
 
 .proyecto-card img {
   width: 100%;
-  border-radius: 2px;
+  height: 80%;
+  border-radius: 3px 3px 3px 3px;
   margin-bottom: 2px;
+  cursor: pointer;
+}
+.proyectos-img{
+  transition: all 0.5s ease;
+}
+.proyectos-img:hover {
+  border-radius: 10px 10px 10px 10px;
+  transform: scale(1.02); 
 }
 
 .proyecto-card h3 {
-  margin: 0 0 0.5rem;
+  color: #ffffff;
+  margin: 0 0  1rem;
+  gap: 1rem;
   font-size: 1.2rem;
+
 }
 
 .proyecto-card p {
-  color: #555;
+  color: #979797;
+}
+
+.proyectos-iconos{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 1rem;
 }
