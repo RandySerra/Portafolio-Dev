@@ -1,6 +1,6 @@
 .proyectos-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-auto-rows: 1fr;
   gap: 0.9rem 0.5rem;
   padding: 2rem;
@@ -10,8 +10,11 @@
 }
 
 .proyecto-card {
+  display: flex;
+  flex-direction: column;
   background-color: transparent;
   padding: 0.9rem;
+  gap: 1rem;
   border-radius: 3px 3px 3px 3px;
   transition: all 0.1s ease-in-out; /* ← Movimiento más suave */
   background-color: #ebf1f615;
@@ -24,36 +27,23 @@
   border-radius: 10px 10px 3px 3px;
 }
 
-
-.proyecto-card img {
+.proyecto-container-img {
   width: 100%;
-  height: 80%;
-  border-radius: 3px 3px 3px 3px;
-  margin-bottom: 2px;
-  cursor: pointer;
+  height: 70%;
 }
-.proyectos-img{
+
+.proyectos-img {
   transition: all 0.5s ease;
 }
 .proyectos-img:hover {
   border-radius: 10px 10px 10px 10px;
-  transform: scale(1.02); 
+  transform: scale(1.03);
 }
 
 .proyecto-card h3 {
-  color: #ffffff;
-  margin: 0 0  1rem;
-  gap: 1rem;
+  color: #fffffff2;
+  margin: 0.2rem 0rem;
   font-size: 1.2rem;
-
 }
 
-.proyecto-card p {
-  color: #979797;
-}
 
-.proyectos-iconos{
- display: flex;
- flex-wrap: wrap;
- gap: 1rem;
-}

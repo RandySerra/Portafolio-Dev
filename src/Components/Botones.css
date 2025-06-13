@@ -1,0 +1,84 @@
+/* boton menu horizontal */
+.botones-iconos{
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  border: solid 0.01px rgb(61, 58, 96);
+  align-items: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  color: rgb(117, 140, 165);
+  gap: 10px;
+}
+.botones-iconos:hover {
+  background-color: var(--color-botones);
+  border: solid 0.01px rgb(119, 125, 137);
+  color: rgb(255, 255, 255);
+}
+.icono{
+  display: inline;
+  font-size: 1vw;
+  color: rgb(255, 255, 255);
+}
+
+/* boton proyectos */
+.proyectos-botones-iconos {
+  width: auto;
+  height: 90%;
+}
+
+.proyectos-tecnologias-ver {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  flex: 1;
+  gap: 0.5rem;
+  color: #ffffffce;
+  transition: all 0.2s ease;
+}
+.proyectos-tecnologias-ver:hover {
+  border-radius: 10px 10px 10px 10px;
+  transform: scale(1.03);
+  color: #ffffff;
+}
+
+.proyecto-boton-ver {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
+  font-size: 200px;
+}
+
+.proyecto-boton-ver {
+  transition: all 0.5s ease;
+}
+
+.proyecto-alinear-botones {
+  display: flex;
+  flex: 1;
+  width: auto;
+  padding: 2px;
+}
+
+/* boton home */
+.botones {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  height: 30px;
+  width: auto;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+  border: solid 0.01px rgb(61, 58, 96);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  gap: 10px;
+  animation: blinkColor 3s infinite;
+}

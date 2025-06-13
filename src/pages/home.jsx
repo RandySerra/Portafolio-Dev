@@ -1,7 +1,7 @@
-import Botonesinfo from "../Components/Botones/Botones";
+import Botonesinfo from "../Components/Botones";
 import { CgMail } from "react-icons/cg";
 import { FaGithub, FaLinkedinIn, FaFilePdf  } from "react-icons/fa";
-
+import "../Components/Botones.css";
 
 function Home() {
   const botones = [
@@ -43,10 +43,10 @@ function Home() {
         </div>
 
         <div className="nombre">
-          <h4>
-            Developer Front-End
-            <h1 className="typewriter">Randy Serra Torres</h1>
-          </h4>
+           <h1 className="typewriter">Randy Serra Torres</h1>
+          <h5>
+            Developer Front-Ends
+          </h5>
           <div className="contenerdor-botones">
             {botones.map((elemento, index) => (
               <a

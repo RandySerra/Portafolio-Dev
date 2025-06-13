@@ -15,6 +15,7 @@ import "./pages/Tecnologia.css";
 import Menuvertical from "./pages/Menu-vertical";
 import "./pages/Menu-vertical.css";
 
+
 function App() {
   return (
     <div className="body">

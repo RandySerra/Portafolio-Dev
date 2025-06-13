@@ -15,32 +15,3 @@
  background-color: rgba(235, 241, 246, 0.084);
 }
 
-
-
-.botones-iconos{
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-  height: 30px;
-  width: 100px;
-  border-radius: 15px;
-  border: solid 0.01px rgb(61, 58, 96);
-  align-items: center;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-  color: rgb(117, 140, 165);
-  gap: 10px;
-}
-
-
-.botones-iconos:hover {
-  background-color: var(--color-botones);
-  border: solid 0.01px rgb(119, 125, 137);
-  color: rgb(255, 255, 255);
-}
-
-.icono{
-  display: inline;
-  font-size: 1vw;
-  color: rgb(255, 255, 255);
-}
